@@ -1,13 +1,12 @@
-package com.sathiyan.productserivce.controller;
+package com.sathiyan.productservice.controller;
 
-import com.sathiyan.productserivce.dto.ProductRequest;
-import com.sathiyan.productserivce.dto.ProductResponse;
-import com.sathiyan.productserivce.service.ProductService;
+import com.sathiyan.productservice.dto.ProductRequest;
+import com.sathiyan.productservice.dto.ProductResponse;
+import com.sathiyan.productservice.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import java.security.PublicKey;
 import java.util.List;
 
 @RestController

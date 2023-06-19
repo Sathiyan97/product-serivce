@@ -1,10 +1,9 @@
-package com.sathiyan.productserivce.service;
+package com.sathiyan.productservice.service;
 
-import com.sathiyan.productserivce.dto.ProductRequest;
-import com.sathiyan.productserivce.dto.ProductResponse;
-import com.sathiyan.productserivce.model.Product;
-import com.sathiyan.productserivce.repository.ProductRepository;
-import lombok.AllArgsConstructor;
+import com.sathiyan.productservice.dto.ProductRequest;
+import com.sathiyan.productservice.dto.ProductResponse;
+import com.sathiyan.productservice.model.Product;
+import com.sathiyan.productservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.sathiyan.productserivce.dto;
+package com.sathiyan.productservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
